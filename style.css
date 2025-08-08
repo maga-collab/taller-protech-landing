@@ -1,3 +1,7 @@
+/* Corrección para el anclaje de la cabecera fija */
+#servicios, #sobre-nosotros, #testimonios, #contacto {
+    scroll-margin-top: 30px; /* Espacio para el header fijo */
+}
 /* Estilos Generales y Reseteo Básico */
 body {
     margin: 0;
