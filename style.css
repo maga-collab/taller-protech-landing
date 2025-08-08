@@ -10,7 +10,6 @@ body {
     color: #333;
 }
 
-
 /* Contenedor del Encabezado */
 .header {
     background-color: #ffffff;
@@ -400,6 +399,10 @@ body {
     .about-us-grid .section-title {
         text-align: center; /* Centra también el título en móvil */
     }
+    /* Ajuste de scroll para el header en móviles */
+#servicios, #sobre-nosotros, #testimonios, #contacto {
+    scroll-margin-top: 70px; 
+}
 }
 /* Transición suave para el brillo de la imagen */
 .card-image {
